@@ -5,7 +5,7 @@ Copy the name of the file to be processed incl. extension and paste it to the fi
 Also supply the numbers of pixels in x and y for the image. 
 The resulting image will be automatically saved in the same folder as the input file and named "originalFileName_YM-image.txt". 
 
-												- Written by Marie Held [mheldb@liverpool.ac.uk] January 2023
+												- Written by Marie Held [mheldb@liverpool.ac.uk] May 2023
 												  Liverpool CCI (https://cci.liverpool.ac.uk/)
 ________________________________________________________________________________________________________________________
 
