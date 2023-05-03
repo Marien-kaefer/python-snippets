@@ -49,3 +49,6 @@ while j < image_size_y:
     j += 1
     
 np.savetxt(filename_without_extension + "_YM-image.txt", image, delimiter=',')
+
+" clean up, delete all variables"
+del dataset, filename, filename_without_extension, i, j, image, image_size_x, image_size_y
