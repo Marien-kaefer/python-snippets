@@ -1,5 +1,5 @@
 # Python Snippets
-short python scripts to make life easier
+short python scripts to make life a little easier
 
 
 ## JPK/Bruker results to image - Young's modulus
@@ -11,3 +11,5 @@ The user is expected to provide the following:
 2. Supply the numbers of pixels in x and y for the image as recorded on the JPK/Bruker AFM. 
 
 The resulting text file will be automatically saved in the same folder as the input file and named "originalFileName_YM-image.txt". This file can then be imported as an image in Fiji and processed further. The image file is 32 bit with the "intensities" representing the Young's modulus at the location of each pixel.  
+
+This acript requires the following packages: pandas, numpy
