@@ -44,10 +44,11 @@ j = 0
 while j < image_size_y:
     i = 0
     while i < image_size_x:
-      image[i,j] = YM[i + j * image_size_y]
+      image[i,j] = YM[i + j * image_size_x]
       i += 1
     j += 1
-    
+
+
 np.savetxt(filename_without_extension + "_YM-image.txt", image, delimiter=',')
 
 " clean up, delete all variables"
